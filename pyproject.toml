@@ -5,7 +5,16 @@ description = "Add your description here"
 authors = [
     { name = "devcomfort", email = "im@devcomfort.me" }
 ]
-dependencies = []
+dependencies = [
+    "flax>=0.10.2",
+    "chex>=0.1.88",
+    "orbax>=0.1.9",
+    "optax>=0.2.4",
+    "jax>=0.5.0",
+    "scikit-learn>=1.6.1",
+    "kagglehub>=0.3.6",
+    "polars>=1.21.0",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
